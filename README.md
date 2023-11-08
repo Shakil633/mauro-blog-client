@@ -7,7 +7,7 @@
 # Customization Options: 
 - Personalization is at the heart of a successful blog. This platform provides a variety of customization options, including themes, templates, and design elements. Bloggers can tailor the appearance of their blog to reflect their unique style and brand. Whether it's choosing color schemes, fonts, or layout designs, the blog website empowers bloggers to create a visually appealing and distinct online presence.
 
-## Categories and Tags: 
+### Categories and Tags: 
 - Effective content organization is vital for a blog's usability. This platform allows bloggers to categorize and tag their posts, enabling efficient content management and navigation for readers. Categories help group related content, while tags add granularity to the organization, making it easier for readers to find specific topics they're interested in. This enhanced organization fosters a better user experience and encourages readers to explore more content.
 
 ### Interactive Engagement: 
