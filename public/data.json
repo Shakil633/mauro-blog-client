@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://i.ibb.co/NNvswgG/img-7.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisc…",
+    "category": "CAROUSEL"
+  },
+  {
+    "title": "Creative pretty photography ideas from smart devices",
+    "image": "https://i.ibb.co/nCvpGBx/img-8.jpg",
+    "description": " Lorem ipsum dolor sit amet, consectetur adipisc…",
+    "category": "PEOPLE"
+  },
+  {
+    "title": "Duis tempor purus rutrum, tincidunt lacus.",
+    "image": "https://i.ibb.co/DwjgcGV/img-9.jpg",
+    "description": " Lorem ipsum dolor sit amet, consectetur adipisc…",
+    "category": "LIFESTYLE"
+  },
+  {
+    "title": "Corporate Workflow make a difference. ",
+    "image": "https://i.ibb.co/4KywtK8/img-12.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisc…",
+    "category": "BUSINESS"
+  },
+  {
+    "title": "Morbi lobortis ultricies urna, neque aliquam sit amet.",
+    "image": "https://i.ibb.co/n6L7YmY/img-11.jpg",
+    "description": " Lorem ipsum dolor sit amet, consectetur adipisc…",
+    "category": "BUSINESS"
+  },
+  {
+    "title": "Sed odio eros, dictum non augue et, tincidunt.",
+    "image": "https://i.ibb.co/543g4F3/img-13.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisc…",
+    "category": "FRIENDS"
+  }
+]
