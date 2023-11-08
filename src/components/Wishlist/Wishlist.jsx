@@ -9,7 +9,7 @@ const Wishlist = () => {
   const { user } = useContext(AuthContext);
   const [myData, setMyData] = useState([]);
 
-  // useEffect(() => {
+  
  
   
  
