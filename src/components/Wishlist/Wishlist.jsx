@@ -9,15 +9,6 @@ const Wishlist = () => {
   const { user } = useContext(AuthContext);
   const [myData, setMyData] = useState([]);
 
-  
- 
-  
- 
-
-
-
- 
-  
 
   const url = `https://mauro-blog-server.vercel.app/userData/${user?.email}`;
   useEffect(() => {
