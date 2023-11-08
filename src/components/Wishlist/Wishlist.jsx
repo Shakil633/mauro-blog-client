@@ -14,7 +14,7 @@ const Wishlist = () => {
   //     credentials: "include",
   //   })
   //     .then((res) => res.json())
-  //     //   .then((data) => setMyData(data));
+ 
   
 
   const url = `https://mauro-blog-server.vercel.app/userData/${user?.email}`;
