@@ -15,8 +15,7 @@ const Wishlist = () => {
   //   })
   //     .then((res) => res.json())
   //     //   .then((data) => setMyData(data));
-  //     .then((data) => setMyData(data));
-  // }, [user]);
+  
 
   const url = `https://mauro-blog-server.vercel.app/userData/${user?.email}`;
   useEffect(() => {
