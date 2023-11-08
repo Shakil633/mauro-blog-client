@@ -1,7 +1,7 @@
 # Live link=(blog-4a388.firebaseapp.com)
 # Blog Website
 
-## User-Friendly Content Management:
+ User-Friendly Content Management:
 - The blog website offers an easy-to-use content management system that simplifies the process of creating and managing blog posts. Bloggers can effortlessly compose articles, format text, insert images, and arrange content without requiring extensive technical knowledge. This user-friendly interface streamlines the blogging experience, allowing writers to focus on their content rather than grappling with complex software.
 
 ### Customization Options: 
