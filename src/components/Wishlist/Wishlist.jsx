@@ -8,7 +8,7 @@ import axios from "axios";
 const Wishlist = () => {
   const { user } = useContext(AuthContext);
   const [myData, setMyData] = useState([]);
-
+  console.log(myData);
 
   const url = `https://mauro-blog-server.vercel.app/userData/${user?.email}`;
   useEffect(() => {

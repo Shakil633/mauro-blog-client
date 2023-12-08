@@ -81,12 +81,6 @@ const AuthProvider = ({ children }) => {
     };
   }, []);
 
-  ///
-
-  ///
-
-  //
-
   const AuthInfo = {
     googleSingIn,
     userSingUp,
