@@ -10,8 +10,14 @@ const Footer = () => {
         <Link className=" link-hover" to={"/add"}>
           Add About
         </Link>
-        <Link className=" link-hover" to={"/cart"}>
-          My Cart
+        <Link className=" link-hover" to={"/all-blog"}>
+          All blogs
+        </Link>
+        <Link className=" link-hover" to={"/featured"}>
+          Featured Blogs
+        </Link>
+        <Link className=" link-hover" to={"/wishlist"}>
+          Wishlist
         </Link>
       </nav>
       <nav>

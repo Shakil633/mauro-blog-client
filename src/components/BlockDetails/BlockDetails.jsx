@@ -74,7 +74,7 @@ const BlockDetails = () => {
 
           <p className="text-xl font-bold mt-8">Long Description</p>
           <p className="md:text-base text-sm font-normal mb-5">{full}</p>
-          
+
           <div>
             <div>
               {blogUser === userEmail && (
@@ -143,7 +143,7 @@ const BlockDetails = () => {
             <p className="mb-5 text-center">{comments.name}</p>
 
             <img
-              className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 mx-auto"
+              className="w-24 h-[90px] rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 mx-auto"
               src={comments.image}
               alt={comments.comment}
             />
