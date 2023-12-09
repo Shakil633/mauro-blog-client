@@ -1,4 +1,4 @@
-# [Live Link](blog-4a388.firebaseapp.com)
+# [Live Link](https://blog-4a388.firebaseapp.com/)
 # Blog Website
 
 ## Least features in this project is:
