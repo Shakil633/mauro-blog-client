@@ -1,5 +1,7 @@
-# Live link=(blog-4a388.firebaseapp.com)
+# [Live Link](blog-4a388.firebaseapp.com)
 # Blog Website
+
+## Least features in this project is:
 
 ### User-Friendly Content Management:
 - The blog website offers an easy-to-use content management system that simplifies the process of creating and managing blog posts. Bloggers can effortlessly compose articles, format text, insert images, and arrange content without requiring extensive technical knowledge. This user-friendly interface streamlines the blogging experience, allowing writers to focus on their content rather than grappling with complex software.
@@ -15,3 +17,7 @@
 
 ### Search Engine Optimization (SEO): 
 - To increase the blog's visibility and reach a broader audience, the blog website incorporates SEO best practices. Built-in SEO tools and guidance help bloggers optimize their content for search engines. This includes features like meta tags, alt text for images, clean URL structures, and more. By adhering to these best practices, bloggers can improve their blog's rankings in search engine results, ultimately attracting more organic traffic and expanding their readership.
+
+### Technologies used : 
+- Tailwind CSS, React, Material ui,MongoDB, Node.js, Express.js, JWT token, Firebase,
+React Hook Form, Axios, TanStack Query, Stripe.
