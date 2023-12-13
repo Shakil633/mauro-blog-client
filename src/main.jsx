@@ -17,6 +17,7 @@ import BlockDetails from "./components/BlockDetails/BlockDetails";
 import WishlistDetails from "./components/WishlistDetails/WishlistDetails";
 import UpdatePage from "./components/UpdatePage/UpdatePage";
 import PrivetRoute from "./components/PrivetRoute/PrivetRoute";
+import WinTicket from "./components/Comment/WinTicket/WinTicket";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Banner></Banner>,
+      },
+      {
+        path: "/winTicket",
+        element: <WinTicket></WinTicket>,
       },
       {
         path: "/add",

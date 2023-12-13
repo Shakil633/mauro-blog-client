@@ -74,6 +74,9 @@ const NavBar = () => {
             <li>
               <NavLink to={"/wishlist"}>Wishlist</NavLink>
             </li>
+            <li>
+            <NavLink to={"/winTicket"}>WinTicket</NavLink>
+          </li>
           </ul>
         </div>
         <div>
@@ -105,6 +108,9 @@ const NavBar = () => {
           </li>
           <li>
             <NavLink to={"/wishlist"}>Wishlist</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/winTicket"}>WinTicket</NavLink>
           </li>
         </ul>
       </div>

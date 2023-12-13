@@ -4,6 +4,7 @@ import { AuthContext } from "../../Provider/AuthProvider";
 import toast from "react-hot-toast";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { FaRegShareSquare } from "react-icons/fa";
 
 const AllBlog = ({ data }) => {
   const { _id, image, category, title, description, full } = data;
@@ -55,6 +56,24 @@ const AllBlog = ({ data }) => {
     },
   };
 
+  
+  const handleShare = async () => {
+    try {
+      if (navigator.share) {
+        await navigator.share({
+          title: name,
+          text: `Check out this product: ${name}`,
+          url: window.location.href,
+        });
+      } else {
+        console.log("Web Share API not supported");
+        // Handle fallback if Web Share API is not supported
+      }
+    } catch (error) {
+      console.error("Error sharing:", error);
+    }
+  };
+
   return (
     <motion.div variants={fadeUp} initial="hidden" whileInView="show">
       <div className="card card-compact h-[450px] rounded-lg bg-base-100 shadow-xl border">
@@ -62,7 +81,20 @@ const AllBlog = ({ data }) => {
           <img className="h-[240px] w-full" src={image} alt="" />
         </figure>
         <div className="card-body">
-          <h4 className="text-lg text-[#e6a5af] font-semibold">{category}</h4>
+         <div className=" flex justify-between">
+         <h4 className="text-lg text-[#e6a5af] font-semibold">{category}</h4>
+         <div>
+              <button
+                className="btn btn-sm btn-outline text-black border-0 border-[#a66a76] hover:bg-[#a66a76] hover:border-b-[#a66a76] border-b-4"
+                onClick={handleShare}
+              >
+                <FaRegShareSquare />
+                share
+              </button>
+            </div>
+         </div>
+
+
           <h2 className="card-title">{title}</h2>
           <p className="text-base">{description}</p>
           <div className="card-actions justify-center mt-3">
