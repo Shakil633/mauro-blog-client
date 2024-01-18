@@ -6,6 +6,7 @@ import Swal from "sweetalert2";
 const BlockDetails = () => {
   const blogDataLoad = useLoaderData();
   const { user } = useContext(AuthContext);
+  
   const { _id, image, title, description, full, userEmail } = blogDataLoad;
 
   const blogUser = user.email;
